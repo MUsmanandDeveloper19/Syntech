@@ -643,9 +643,9 @@
 
       <div class="col-lg-2 col-md-4 col-sm-6">
         <!-- FAQS -->
-         <a href="#">
+<!--          <a href="#">
             <h5 class="text-white">FAQ</h5>
-          </a>
+          </a> -->
         <!-- FAQS -->
       </div>
      
@@ -695,40 +695,6 @@
       <span></span>
     </div>
   </div>
-
- 
-
-<!-- Dark-mode-light-mode -->
-  <button id="theme-toggle" title="Toggle Theme">
-    🌙
-  </button>
-
-
-  <script>
-const toggleBtn = document.getElementById('theme-toggle');
-
-toggleBtn.addEventListener('click', () => {
-  document.body.classList.toggle('dark-mode');
-
-  if (document.body.classList.contains('dark-mode')) {
-    toggleBtn.textContent = '☀️';
-    toggleBtn.classList.add('spin');
-  } else {
-    toggleBtn.textContent = '🌙';
-    toggleBtn.classList.remove('spin');
-  }
-
-  // remove animation class after 1s
-  setTimeout(() => toggleBtn.classList.remove('spin'), 1000);
-});
-
-  </script>
-
-
-<!-- Dark-mode-light-mode -->
-
-
-
 
 
   <script>
@@ -1454,4 +1420,5 @@ toggleBtn.addEventListener('click', () => {
 
 
 </body>
+
 </html>
